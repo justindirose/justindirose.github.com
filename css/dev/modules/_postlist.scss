@@ -1,0 +1,13 @@
+.post-list {
+    text-align: center;
+}
+.post-list li {
+    list-style-type: none;
+    margin-left: -15px;
+    display: inline-block;
+}
+.post-link {
+    font-family: $sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+}

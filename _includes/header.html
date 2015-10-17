@@ -1,0 +1,28 @@
+<nav id="menu" class="menu slideout-menu" >
+    <ul>
+        <li class="nav-item"><a class="nav-item" href="{{ site.url }}">Home</a></li>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li class="nav-item"><a class="nav-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
+
+<main id="panel" class="panel slideout-panel">
+    <label for="nav-trigger">
+        <button class="toggle-button">
+            <div id="nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+    </label>
+    <div class="content-wrapper">
+        <header id="top">
+            <section class="logo">
+                <h1><a class="nav-item" href="{{ site.url }}">justin dirose</a></h1>
+                <h2>Living at the intersection of technology, creativity, and spirituality.</h2>
+            </section>
+        </header>

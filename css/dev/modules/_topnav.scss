@@ -1,0 +1,128 @@
+//***************************************************
+//    TOP NAVIGATION MODULE PARTIAL
+//***************************************************
+
+
+//***************************************************
+// Styles for Slideout Nav
+//***************************************************
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.slideout-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+}
+
+.slideout-panel {
+  position:relative;
+  z-index: 1;
+}
+.content-wrapper {z-index: 1;}
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+main {
+    background-color: $color-ter;
+    height: 100vh;
+}
+.menu {
+    background: $color-prim;
+    font-family: $font-sec;
+    font-weight: bold;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    width: 200px;
+}
+.nav-item a {
+    display: block;
+    color: $color-ter;
+    padding: .75em;
+    text-decoration: none;
+}
+.nav-item a:hover {
+    color: $color-sec;
+}
+// //***************************************************
+// // Styles for CSS Hamburger Icon + Animation
+// //***************************************************
+.toggle-button {
+    position: relative;
+    background: none;
+    border: none;
+    margin: 20px 0 0 10px;
+}
+#nav-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: $color-prim;
+  border-radius: 4px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+#nav-icon span:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+#nav-icon span:nth-child(2) {
+  top: 12px;
+  transform-origin: left center;
+}
+
+#nav-icon span:nth-child(3) {
+  top: 24px;
+  transform-origin: left center;
+}
+
+#nav-icon.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 8px;
+}
+
+#nav-icon.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-icon.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 22px;
+  left: 8px;
+}

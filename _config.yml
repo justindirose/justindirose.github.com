@@ -1,0 +1,22 @@
+# Site settings
+title: Justin DiRose
+email: justin@justindirose.com
+description: Living at the intersection of technology, creativity, and spirituality.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://justindirose.com" # the base hostname & protocol for your site
+twitter_username: justindirose
+github_username:  justindirose
+permalink: none
+
+# Build settings
+markdown: kramdown
+kramdown:
+    input: GFM
+timezone: America/Chicago
+paginate: 10
+
+# Exclusions
+exclude: [css/dev/, js/dev, node_modules/, gruntfile.js, package.json]
+
+# Inclusions
+include: [assets/, .htacess]

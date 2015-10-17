@@ -1,0 +1,41 @@
+        <footer id="page-footer">
+            <section>
+                <p><a href="#top" class="btt">back to top</a></p>
+                <p>&copy; 2015 &mdash; Justin DiRose</p>
+                <p class="footer-nav">
+                    {% for page in site.pages %}
+                    {% if page.title %}
+                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    {% endif %}
+                    {% endfor %}
+                </p>
+            </section>
+        </footer>
+    </div>
+    </main>
+<script src="{{site.url}}/js/build/main.min.js"></script>
+<script src="{{site.url}}/js/build/bigfoot.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.9/slideout.min.js"></script>
+<script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+      document.querySelector('.menu').addEventListener('click', function(eve) {
+        if (eve.target.nodeName === 'A') { slideout.close(); }
+      });
+
+      var bigfoot = $.bigfoot(
+  		{
+  		actionOriginalFN: "ignore",
+  		positionContent: "true"
+  		}
+  	);
+</script>
