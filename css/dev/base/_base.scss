@@ -30,7 +30,7 @@ h4 { font-size: 2.4rem; }
 h5 { font-size: 2.2rem; }
 h6 { font-size: 1.8rem; line-height: 0;}
 a, p, li, pre, dl, dt, details, th, td, caption, input { font-size: 1.8rem; }
-blockquote { font-size: 2.2rem; }
+blockquote { font-size: 2.2rem; border-left: 2px solid $color-prim; padding-left: 15px;}
 figcaption { font-size: 1.4rem; }
 time { font-style: italic;}
 dl dt { font-weight: bold; }
