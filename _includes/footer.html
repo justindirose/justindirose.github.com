@@ -3,11 +3,9 @@
                 <p><a href="#top" class="btt">back to top</a></p>
                 <p>&copy; 2015 &mdash; Justin DiRose</p>
                 <p class="footer-nav">
-                    {% for page in site.pages %}
-                    {% if page.title %}
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                    {% endif %}
-                    {% endfor %}
+                    <a href="{{ site.url }}">blog</a> |
+                    <a href="{{ site.url }}/about">about</a> |
+                    <a href="{{ site.url }}/contact">contact</a>
                 </p>
                 <p><form method="get" action="https://duckduckgo.com/">
                     <input type="hidden" value="justindirose.com" name="sites"></input>
