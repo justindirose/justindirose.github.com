@@ -14,7 +14,8 @@ kramdown:
     input: GFM
 timezone: America/Chicago
 paginate: 10
-
+sass:
+    sass_dir: _scss
 # Exclusions
 exclude: [css/dev/, js/dev, node_modules/, gruntfile.js, package.json]
 

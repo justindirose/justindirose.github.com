@@ -1,0 +1,68 @@
+/*  =====================================================
+
+    BASE STYLES: Default styling of elements site wide goes here.
+
+    ===================================================== */
+
+
+//*******************************************************
+//    MOST HIGH STYLES
+//*******************************************************
+html { font-size: $font-size-base-pct; }
+html, body, main {
+    background-color: $color-body;
+    color: $color-text-base;
+}
+body {
+    font-family: $font-base;
+    line-height: $line-height-base / $font-size-base; // 26 / 16 = 1.625
+    @include antialiasing();
+}
+
+//*******************************************************
+//    TYPOGRAPHIC ELEMENTS -- FONT SIZE, WEIGHT, STYLE
+//*******************************************************
+
+h1 { font-size: 3.6rem; }
+h2 { font-size: 3.2rem; }
+h3 { font-size: 2.8rem; }
+h4 { font-size: 2.4rem; }
+h5 { font-size: 2.2rem; }
+h6 { font-size: 1.8rem; line-height: 0;}
+a, p, li, pre, dl, dt, details, th, td, caption, input { font-size: 1.8rem; }
+blockquote { font-size: 2.2rem; border-left: 2px solid $color-prim; padding-left: 15px;}
+figcaption { font-size: 1.4rem; }
+time { font-style: italic;}
+dl dt { font-weight: bold; }
+dl dd { font-style: italic;}
+
+//*******************************************************
+//    LINKS
+//******************************************************
+
+a, a:visited { color: $color-text-base; }
+a:hover, a:active { color: $color-text-highlight; }
+
+//*******************************************************
+//    HORIZONTAL RULES
+//******************************************************
+
+hr { border: 0; height: 0; margin: 50px 0; @include hr-opacity($color-ter, $color-prim); }
+
+//*******************************************************
+//    TABLE ELEMENTS
+//******************************************************
+
+table { border-collapse: collapse; /*font-family: $font-sec;*/ }
+table, th, td { padding: 15px; }
+table, td { border: 1px solid $grey; }
+th { border: 1px solid $grey; background-color: $color-prim; color: $color-text-light; }
+caption { padding-top: 15px; caption-side: bottom;}
+
+//*******************************************************
+//    FORM ELEMENTS
+//******************************************************
+
+*:focus { outline: none; }
+form { font-family: $font-sec; }
+label { font-size: 1.6rem; }

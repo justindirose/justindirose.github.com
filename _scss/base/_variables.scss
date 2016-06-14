@@ -1,0 +1,72 @@
+//****************************************************
+// VARIABLES BASE PARTIAL
+// ****************************************************
+
+
+
+//****************************************************
+// NAMED COLOR DEFINITIONS
+// Define colors here first.
+// ****************************************************
+
+// Default colors
+$white: #ffffff;
+$black: #000;
+$grey: #878787;
+$light-blue: #eaeef9;
+$dark-blue: #212634;
+$highlight-orange: #b5470e;
+
+// Insert additional project-based colors here
+
+//****************************************************
+// FUNCTIONAL COLOR DEFINITIONS
+// Use named colors below.
+// ****************************************************
+
+$color-prim: $dark-blue;
+$color-sec: $highlight-orange;
+$color-ter: $light-blue;
+
+$color-text-light: $light-blue;
+$color-text-base: $dark-blue;
+$color-text-highlight: $highlight-orange;
+
+$color-border-light: $light-blue;
+$color-border-dark: $dark-blue;
+
+$color-shadow: $dark-blue;
+$color-body: $light-blue;
+
+//****************************************************
+// NAMED FONT STACKS
+// ****************************************************
+
+$lora-font-stack: 'Lora', Georgia, serif;
+$opensans-font-stack: 'Open Sans', Arial, sans-serif;
+
+//****************************************************
+// FUNCTIONAL FONT STACKS
+// ****************************************************
+
+$serif: $lora-font-stack;
+$sans-serif: $opensans-font-stack;
+
+$font-base: $serif;
+$font-sec: $sans-serif;
+
+//****************************************************
+// FONT DEFAULTS
+// ****************************************************
+
+$font-size-base-pct: 62.5%;
+$font-size-base: 16;
+$line-height-base: 26;
+
+//****************************************************
+// PROJECT BREAKPOINTS
+// ****************************************************
+$sm: new-breakpoint(min-width 480px 12);
+$md: new-breakpoint(min-width 768px 12);
+$lg: new-breakpoint(min-width 1024px 12);
+// $xl: new-breakpoint(min-width 1824px 12);
