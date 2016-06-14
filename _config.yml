@@ -1,7 +1,7 @@
 # Site settings
 title: Justin DiRose
 email: justin@justindirose.com
-description: Exploring and empowering worship, creativity, and purpose
+description: Thoughts on worship, creativity, and technology.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://justindirose.com" # the base hostname & protocol for your site
 twitter_username: justindirose
