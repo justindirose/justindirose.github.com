@@ -16,6 +16,11 @@ timezone: America/Chicago
 paginate: 10
 sass:
     sass_dir: _scss
+    
+# GitHub Gems
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
 # Exclusions
 exclude: [css/dev/, js/dev, node_modules/, gruntfile.js, package.json]
 
