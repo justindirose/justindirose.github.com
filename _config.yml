@@ -15,14 +15,14 @@ kramdown:
 timezone: America/Chicago
 paginate: 10
 sass:
-    sass_dir: _scss
+    sass_dir: css
     
 # GitHub Gems
 gems:
   - jekyll-sitemap
   - jekyll-feed
 # Exclusions
-exclude: [css/dev/, js/dev, node_modules/, gruntfile.js, package.json]
+exclude: [css/dev/, js/dev, node_modules/, gruntfile.js, package.json, Gemfile, Gemfile.lock]
 
 # Inclusions
 include: [assets/, .htacess]
