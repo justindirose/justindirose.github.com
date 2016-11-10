@@ -22,7 +22,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
 # Exclusions
-exclude: [css/dev/, js/dev, node_modules/, gruntfile.js, package.json]
+exclude: [css/dev/, js/dev, node_modules/, gruntfile.js, package.json, Gemfile, Gemfile.lock]
 
 # Inclusions
 include: [assets/, .htacess]
