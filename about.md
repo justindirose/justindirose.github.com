@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Justin DiRose has a passion for learning how to live all parts of his life unto the Lord and teaching other people how to do the same. Justin is also a technology enthusiast and musician. In addition to running this blog, Justin currently works a day job in IT and leads/directs worship at [Destiny Fellowship](http://dfbemidji.com) in Bemidji, MN, where he and his wife, Ruth, and son currently reside.
+Justin DiRose has a passion for learning how to live all parts of his life unto the Lord and teaching other people how to do the same. Justin is also a technology enthusiast and musician. In addition to running this blog, Justin currently works a day job in IT and leads/directs worship at [Destiny Fellowship](http://dfbemidji.com) in Bemidji, MN, where he, his wife, Ruth, and son currently reside.
 
 ### Contact Justin
 
